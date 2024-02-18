@@ -13,7 +13,7 @@ public class multidimensionarray {
         int[] c ={3,7,9,10};
 
         //instead of creating multiple array we can create a single mutli dimenional array
-//        int d[][] ={a,b,c};
+        int[][] f ={a,b,c};
         int[][] d ={ {11,12,13,14},{12,13,14,15},{31,17,19,10} };
 
         System.out.println("print a Array with predefining row column count");
