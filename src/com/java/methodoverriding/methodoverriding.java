@@ -48,6 +48,8 @@ public static void main(String[] args){
     ob1.show();
     //as there are two method with same name and arguments in both the class .
     // the method in the extended class overrides  method of super class by default
+    //to  determine from which class method to be picked is determined in runtime time itself
+    //runtime time polymorphism
     ob1.invoke();
 }
 }
