@@ -37,5 +37,7 @@ public class Methodoverloading {
         ob.add(3.4,4.5);
         //methodoverloading is used when we have to perform similar type of actions(eg.additon) but with different set of inputs.
         //above example is to perform addition for  different set of arguements.
+        //to  determine from which class method to be picked is determined in compile time itself
+        //compile time polymorphism
     }
 }
