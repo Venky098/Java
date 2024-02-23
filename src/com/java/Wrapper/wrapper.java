@@ -4,7 +4,12 @@ package com.java.Wrapper;
 
 
 
-
+class a{
+    public int[] abc(int [] z){
+        int ac=z.length;
+        return new int[]{1,2};
+    }
+}
 
 
 
