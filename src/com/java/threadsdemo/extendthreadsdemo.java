@@ -21,6 +21,8 @@ class Thread1 extends Thread{
 //t1.start();
 //ready or runnable state
 //if Thread scheduler allocates processor - goes to running state
+//Thread.yield is called it will be again goes to ready or runnable state
+//if join() is called and thread will go to waiting state , then from waiting to come to ready or runnable state
 //once run method execution finish - thread goes to dead state
 
 
