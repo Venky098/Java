@@ -31,6 +31,9 @@ public class extendthreadsdemo extends Thread{
         //start a new thread and run run method in Thread1
         t1.start();
 
+        //t1.start();
+       // if a thread called once and we try to start same thread we gets IllegalThreadStateException
+
         //executes by main thread
         for( int i=0;i<10;i++){
             System.out.println("main thread"+i);
