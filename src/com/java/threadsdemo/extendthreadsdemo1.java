@@ -14,15 +14,27 @@ package com.java.threadsdemo;
 //    }
 //
 //}
+class Thread2 extends Thread{
+
+    public void start(){
+
+            System.out.println("overriden start method");
+    }
+    public void run(){
+            System.out.println("overriden run method");
+
+    }
+
+}
 
 public class extendthreadsdemo1 extends Thread{
     public static void main(String[] args) {// main thread execute main method
         //Instantiate a Thread
-        Thread1 t1 = new Thread1();
-        //start the thread
-        t1.start();
+        Thread2 t2 = new Thread2();
+        t2.start();
+        t2.run();
+        // no new thread is created and main thread will execute the run method by main thread
 
-        //executes by main thread
         for( int i=0;i<10;i++){
             System.out.println("main thread"+i);
         }
