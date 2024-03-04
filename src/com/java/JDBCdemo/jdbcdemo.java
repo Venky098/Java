@@ -29,6 +29,8 @@ public class jdbcdemo {
        /* rt.next();//Step6
         System.out.println(rt.getString(2));*/
 
+        int s =st.getConnection().createStatement().executeQuery("Select * from demo.new_table" ).getFetchSize();
+        System.out.println(s);
         while(rt.next()){
             System.out.println( rt.getInt(1)+" || "+ rt.getString(2)+ " || "+rt.getString(3)); //step6
         }
